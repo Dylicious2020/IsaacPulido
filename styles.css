@@ -24,9 +24,9 @@
 
   @media only screen and (max-width: 480px){
     .mobileInstagram {
-      width: 55px;
+      width: 65px;
       text-decoration: none;
-      margin-left: 10%;
+      margin-left: 5%;
       margin-top: 30%;
       z-index: 100;
      
@@ -36,8 +36,8 @@
     }
     
     .mobilePatreon {
-      width: 45px;
-      margin-top: 10%;
+      width: 55px;
+      margin-top: 15%;
       margin-left: 10%;
       text-decoration: none;
      
