@@ -449,9 +449,9 @@ p.indent {
 @media only screen and (max-width: 480px){
 #drumSolo {
   position: fixed;
-  width: 100%;
+  width: 120%;
   height: auto;
-  margin-top: 35%;
+  margin-top: 20%;
   z-index: -10;
 
 }
