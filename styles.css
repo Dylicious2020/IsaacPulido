@@ -6,7 +6,18 @@
   margin-left: 60%;
   margin-top: -70px;
   z-index: 100;
+  
+  
 
+}
+
+.patreon {
+  width: 45px;
+  margin-top: -70px;
+  text-decoration: none;
+  
+  
+ 
 }
 }
 
@@ -14,83 +25,90 @@
 .instagram {
   width: 55px;
   text-decoration: none;
-  margin-left: 45%;
-  margin-top: -70px;
-  visibility: hidden;
+  margin-left: 60%;
+  margin-top: -80px;
+  
+  
 
 }
+
+.patreon {
+  width: 45px;
+  margin-top: -125px;
+  margin-left: 75%;
+  text-decoration: none;
+  
+ 
+  
+ 
+}
+  
+ 
+
 }
 
-@media only screen and (max-width: 600px){
-  .sidebarInstagram {
-    width: 0%;
+@media only screen and (min-width: 768px){
+
+  .instagram {
+    width: 55px;
     text-decoration: none;
-    margin-left: 0%;
-    margin-top: 0%;
-    z-index: 100;
-    visibility: hidden;
-  
-  }
-  }
-  
-  @media only screen and (min-width: 600px){
-  .sidebarInstagram {
-    width: 20%;
-    text-decoration: none;
-    margin-left: 5%;
-    margin-top: 0%;
+    margin-left: 60%;
+    margin-top: -95px;
+    
     
   
   }
+
+  .patreon {
+    width: 45px;
+   margin-top: -140px;
+   margin-left: 75%;
+   text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 992px){
+
+
+  .instagram {
+    width: 100px;
+    text-decoration: none;
+    margin-left: 62%;
+    margin-top: -113px;
+    
+    
+  
   }
 
-
-
-@media only screen and (max-width: 600px){  
   .patreon {
-   width: 45px;
-   margin-top: -70px;
+    width: 75px;
+   margin-top: -155px;
+   margin-left: 75%;
    text-decoration: none;
-   
-  
-}
+  }
 }
 
-@media only screen and (min-width: 600px){  
+@media only screen and (min-width: 1200px){
+
+  .instagram {
+    width: 100px;
+    text-decoration: none;
+    margin-left: 68%;
+    margin-top: -113px;
+    
+    
+  
+  }
+
   .patreon {
-   width: 0%;
-   margin-top: 0%;
-   margin-left: 0%;
+    width: 75px;
+   margin-top: -155px;
+   margin-left: 78%;
    text-decoration: none;
-   visibility: hidden;
-   
-  
-}
+  }
 }
 
-@media only screen and (max-width: 600px){  
-  .sidebarPatreon {
-   width: 0%;
-   margin-top: 0%;
-   margin-left: 0%;
-   text-decoration: none;
-   visibility: hidden;
-   
-  
-}
-}
 
-@media only screen and (min-width: 600px){  
-  .sidebarPatreon {
-   width: 15%;
-   margin-top: 0%;
-   margin-left: 10%;
-   text-decoration: none;
-   
-   
-  
-}
-}
 
 .link{
   text-decoration: none;
@@ -104,9 +122,38 @@
    z-index: -10;
   }
 
+@media only screen and (max-width: 600px){
 .title {
   letter-spacing: 1px;
 }
+}
+
+@media only screen and (min-width: 600px){
+  .title {
+    letter-spacing: 1px;
+  }
+  }
+
+  @media only screen and (min-width: 768px){
+    .title {
+      letter-spacing: 1px;
+    }
+    }
+
+    @media only screen and (min-width: 992px){
+      .title {
+        letter-spacing: 1px;
+        margin-top: -10px;
+      }
+      }
+
+      @media only screen and (min-width: 1200px){
+        .title {
+          letter-spacing: 1px;
+        }
+        }
+
+
 
  
 
@@ -162,6 +209,20 @@ p.indent {
   
   
 }
+/*
+.thlcontainer:hover > .bar1 {
+  box-shadow: #4769d8 2px 2px;
+}
+
+.thlcontainer:hover > .bar2 {
+  box-shadow: #4769d8 2px 2px;
+}
+
+.thlcontainer:hover > .bar3 {
+  box-shadow: #4769d8 2px 2px;
+}
+*/
+
 
 }
 
@@ -170,40 +231,64 @@ p.indent {
   display: block;
   cursor: pointer;
   margin-left: 92%;
-  margin-top: -60px;
+  margin-top: 20px;
   padding-bottom: 5%;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   
   
 }
+/*
+.thlcontainer:hover > .bar1 {
+  box-shadow: #4769d8 2px 2px;
+}
 
+.thlcontainer:hover > .bar2 {
+  box-shadow: #4769d8 2px 2px;
+}
+
+.thlcontainer:hover > .bar3 {
+  box-shadow: #4769d8 2px 2px;
+}
+*/
 }
 
 @media only screen and (min-width: 768px){
 .thlcontainer {
   display: block;
   cursor: pointer;
-  margin-left: 90%;
-  margin-top: -65px;
+  margin-left: 93%;
+  margin-top: 20px;
   padding-bottom: 5%;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   
   
 }
+/*
+.thlcontainer:hover > .bar1 {
+  box-shadow: #4769d8 2px 2px;
+}
 
+.thlcontainer:hover > .bar2 {
+  box-shadow: #4769d8 2px 2px;
+}
+
+.thlcontainer:hover > .bar3 {
+  box-shadow: #4769d8 2px 2px;
+}
+*/
 }
 
 @media only screen and (min-width: 992px){
 .thlcontainer {
   display: block;
   cursor: pointer;
-  margin-left: 90%;
-  margin-top: -70px;
+  margin-left: 93%;
+  margin-top: 20px;
   padding-bottom: 5%;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   
   
 }
@@ -214,11 +299,11 @@ p.indent {
 .thlcontainer {
   display: block;
   cursor: pointer;
-  margin-left: 90%;
-  margin-top: -75px;
+  margin-left: 93%;
+  margin-top: 20px;
   padding-bottom: 5%;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   
   
 }
@@ -236,6 +321,7 @@ p.indent {
   transition: 0.4s;
   
 }
+
 
 
 
@@ -264,6 +350,9 @@ p.indent {
     transition: 0.5s;
     filter: drop-shadow(1px 2px 8px black);
 }
+
+
+
 .sidebar div {
   padding: 8px;
   /*font-size: 24px;*/
@@ -281,7 +370,26 @@ p.indent {
   
 }
 
+@media only screen and (max-width: 600px){
 #mySidebar.open {margin-left: 40%;}
+}
+
+@media only screen and (min-width: 600px){
+  #mySidebar.open {margin-left: 40%;}
+  }
+
+  @media only screen and (min-width: 768px){
+    #mySidebar.open {margin-left: 50%;}
+    }
+
+    @media only screen and (min-width: 992px){
+      #mySidebar.open {margin-left: 62%;}
+      }
+
+      @media only screen and (min-width: 1200px){
+        #mySidebar.open {margin-left: 68%;}
+        }
+
 
 @media only screen and (max-width: 600px){
 #drumSolo {
@@ -326,7 +434,7 @@ p.indent {
   width: 40%;
   height: 26%;
   border: 2px solid white;
-  margin-top: 20%;
+  margin-top: 40%;
   margin-left: 30%;
   z-index: 4;
   position: absolute;
@@ -410,40 +518,45 @@ p.indent {
 @media only screen and (max-width: 600px){
 .subtitle {
   margin-top: -35px;
-  margin-left: 0%;
+  margin-left: 0px;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 }
 
 @media only screen and (min-width: 600px){
 .subtitle {
-  margin-top: -30px;
-  margin-left: 2.5%;
+  margin-top: -55px;
+  margin-left: 0px;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 }
 
 @media only screen and (min-width: 768px){
 .subtitle {
-  margin-top: -30px;
-  margin-left: 2.5%;
+  margin-top: -60px;
+  margin-left: 0px;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 }
 
 @media only screen and (min-width: 992px){
 .subtitle {
-  margin-top: -30px;
-  margin-left: 2.5%;
+  margin-top: -68px;
+  margin-left: 0px;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 }
 
 @media only screen and (min-width: 1200px){
 .subtitle {
-  margin-top: -30px;
-  margin-left: 2.5%;
+  margin-top: -70px;
+  margin-left: 0px;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 }
 

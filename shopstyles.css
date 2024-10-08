@@ -4,9 +4,20 @@
     width: 55px;
     text-decoration: none;
     margin-left: 60%;
-    margin-top: -100px;
+    margin-top: -105px;
     z-index: 100;
+    
+    
   
+  }
+  
+  .patreon {
+    width: 45px;
+    margin-top: -105px;
+    text-decoration: none;
+    
+    
+   
   }
   }
   
@@ -14,82 +25,87 @@
   .instagram {
     width: 55px;
     text-decoration: none;
-    margin-left: 45%;
-    margin-top: -70px;
-    visibility: hidden;
+    margin-left: 60%;
+    margin-top: -80px;
+    
+    
   
   }
+  
+  .patreon {
+    width: 45px;
+    margin-top: -125px;
+    margin-left: 75%;
+    text-decoration: none;
+    
+   
+    
+   
+  }
+    
+   
+  
   }
   
-  @media only screen and (max-width: 600px){
-    .sidebarInstagram {
-      width: 0%;
+  @media only screen and (min-width: 768px){
+  
+    .instagram {
+      width: 55px;
       text-decoration: none;
-      margin-left: 0%;
-      margin-top: 0%;
-      z-index: 100;
-      visibility: hidden;
-    
-    }
-    }
-    
-    @media only screen and (min-width: 600px){
-    .sidebarInstagram {
-      width: 20%;
-      text-decoration: none;
-      margin-left: 5%;
-      margin-top: 0%;
+      margin-left: 60%;
+      margin-top: -95px;
+      
       
     
     }
+  
+    .patreon {
+      width: 45px;
+     margin-top: -140px;
+     margin-left: 75%;
+     text-decoration: none;
+    }
+  }
+  
+  @media only screen and (min-width: 992px){
+  
+  
+    .instagram {
+      width: 100px;
+      text-decoration: none;
+      margin-left: 62%;
+      margin-top: -113px;
+      
+      
+    
     }
   
-  
-  
-  @media only screen and (max-width: 600px){  
     .patreon {
-     width: 45px;
-     margin-top: -100px;
+      width: 75px;
+     margin-top: -155px;
+     margin-left: 75%;
      text-decoration: none;
-     
-    
-  }
+    }
   }
   
-  @media only screen and (min-width: 600px){  
+  @media only screen and (min-width: 1200px){
+  
+    .instagram {
+      width: 100px;
+      text-decoration: none;
+      margin-left: 68%;
+      margin-top: -113px;
+      
+      
+    
+    }
+  
     .patreon {
-     width: 0%;
-     margin-top: 0%;
-     margin-left: 0%;
+      width: 75px;
+     margin-top: -155px;
+     margin-left: 78%;
      text-decoration: none;
-     visibility: hidden;
-     
-    
-  }
-  }
-  
-  @media only screen and (max-width: 600px){  
-    .sidebarPatreon {
-     width: 0%;
-     margin-top: 0%;
-     margin-left: 0%;
-     text-decoration: none;
-     visibility: hidden;
-     
-    
-  }
-  }
-  
-  @media only screen and (min-width: 600px){  
-    .sidebarPatreon {
-     width: 15%;
-     margin-top: 0%;
-     margin-left: 10%;
-     text-decoration: none;
-     
-     
-    
-  }
+    }
   }
   
   .link{
@@ -104,9 +120,36 @@
      z-index: -10;
     }
   
-  .title {
-    letter-spacing: 1px;
-  }
+    @media only screen and (max-width: 600px){
+      .title {
+        letter-spacing: 1px;
+      }
+      }
+      
+      @media only screen and (min-width: 600px){
+        .title {
+          letter-spacing: 1px;
+        }
+        }
+      
+        @media only screen and (min-width: 768px){
+          .title {
+            letter-spacing: 1px;
+          }
+          }
+      
+          @media only screen and (min-width: 992px){
+            .title {
+              letter-spacing: 1px;
+              margin-top: -10px;
+            }
+            }
+      
+            @media only screen and (min-width: 1200px){
+              .title {
+                letter-spacing: 1px;
+              }
+              }
   
    
   
@@ -152,79 +195,117 @@
   
   
   @media only screen and (max-width: 600px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 88%;
-    margin-top: -78px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
+    .thlcontainer {
+      display: block;
+      cursor: pointer;
+      margin-left: 88%;
+      margin-top: -80px;
+      padding-bottom: 5%;
+      z-index: 100;
+      position: fixed;
+      
+      
+    }
+    /*
+    .thlcontainer:hover > .bar1 {
+      box-shadow: #4769d8 2px 2px;
+    }
+    
+    .thlcontainer:hover > .bar2 {
+      box-shadow: #4769d8 2px 2px;
+    }
+    
+    .thlcontainer:hover > .bar3 {
+      box-shadow: #4769d8 2px 2px;
+    }
+    */
     
     
-  }
-  
-  }
-  
-  @media only screen and (min-width: 600px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 92%;
-    margin-top: -65px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
+    }
     
+    @media only screen and (min-width: 600px){
+    .thlcontainer {
+      display: block;
+      cursor: pointer;
+      margin-left: 90%;
+      margin-top: -110px;
+      padding-bottom: 5%;
+      z-index: 100;
+      position: fixed;
+      
+      
+    }
+    /*
+    .thlcontainer:hover > .bar1 {
+      box-shadow: #4769d8 2px 2px;
+    }
     
-  }
-  
-  }
-  
-  @media only screen and (min-width: 768px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: -65px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
+    .thlcontainer:hover > .bar2 {
+      box-shadow: #4769d8 2px 2px;
+    }
     
+    .thlcontainer:hover > .bar3 {
+      box-shadow: #4769d8 2px 2px;
+    }
+    */
+    }
     
-  }
-  
-  }
-  
-  @media only screen and (min-width: 992px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: -70px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
+    @media only screen and (min-width: 768px){
+    .thlcontainer {
+      display: block;
+      cursor: pointer;
+      margin-left: 90%;
+      margin-top: -100px;
+      padding-bottom: 5%;
+      z-index: 100;
+      position: fixed;
+      
+      
+    }
+    /*
+    .thlcontainer:hover > .bar1 {
+      box-shadow: #4769d8 2px 2px;
+    }
     
+    .thlcontainer:hover > .bar2 {
+      box-shadow: #4769d8 2px 2px;
+    }
     
-  }
-  
-  }
-  
-  @media only screen and (min-width: 1200px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: -75px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
+    .thlcontainer:hover > .bar3 {
+      box-shadow: #4769d8 2px 2px;
+    }
+    */
+    }
     
+    @media only screen and (min-width: 992px){
+    .thlcontainer {
+      display: block;
+      cursor: pointer;
+      margin-left: 90%;
+      margin-top: -100px;
+      padding-bottom: 5%;
+      z-index: 100;
+      position: fixed;
+      
+      
+    }
     
-  }
-  
-  }
+    }
+    
+    @media only screen and (min-width: 1200px){
+    .thlcontainer {
+      display: block;
+      cursor: pointer;
+      margin-left: 90%;
+      margin-top: -100px;
+      padding-bottom: 5%;
+      z-index: 100;
+      position: fixed;
+      
+      
+    }
+    
+    }
   
   
   
@@ -282,7 +363,25 @@
     
   }
   
-  #mySidebar.open {margin-left: 40%;}
+  @media only screen and (max-width: 600px){
+    #mySidebar.open {margin-left: 40%;}
+    }
+    
+    @media only screen and (min-width: 600px){
+      #mySidebar.open {margin-left: 40%;}
+      }
+    
+      @media only screen and (min-width: 768px){
+        #mySidebar.open {margin-left: 50%;}
+        }
+    
+        @media only screen and (min-width: 992px){
+          #mySidebar.open {margin-left: 62%;}
+          }
+    
+          @media only screen and (min-width: 1200px){
+            #mySidebar.open {margin-left: 68%;}
+            }
   
   @media only screen and (max-width: 600px){
   #drumSolo {
@@ -414,24 +513,24 @@
   
   @media only screen and (min-width: 600px){
   .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
+    margin-top: -10px;
+    margin-left: 0%;
     font-family: 'Courier New', Courier, monospace;
   }
   }
   
   @media only screen and (min-width: 768px){
   .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
+    margin-top: -20px;
+    margin-left: 0%;
     font-family: 'Courier New', Courier, monospace;
   }
   }
   
   @media only screen and (min-width: 992px){
   .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
+    margin-top: -20px;
+    margin-left: 1%;
     font-family: 'Courier New', Courier, monospace;
   }
   }
@@ -504,6 +603,11 @@
   }
 
  @media only screen and (max-width: 600px){
+
+
+  .vol1box {
+    margin-top: 30%;
+  }
 
   .bundle {
     margin-top: 20%;
@@ -606,6 +710,8 @@
     filter: drop-shadow(1px 2px 8px black);
     
   }
+
+ 
 
   .vol1Blur {
     width: 50%;
@@ -734,133 +840,239 @@
 }
 
 @media only screen and (min-width: 600px){
+
+  .vol1box {
+    margin-top: 30%;
+  }
+  .bundle {
+    margin-top: 20%;
+  }
+
+  .individual {
+    margin-top: 56%;
+  }
   .funkPack1 {
-    width: 35%;
+    width: 25%;
     height: auto;
     position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
     transition: .5s all;
+    z-index: 5;
+    filter: drop-shadow(1px 2px 8px black);
+    }
+
+  .funkblur {
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .funkblur:hover {
+    opacity: 60%;
+  }
+
+
+
+  .hipHopPack1 {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 5%;
+    transition: .5s all;
+    z-index: 5;
+    filter: drop-shadow(1px 2px 8px black);
     
   }
 
-  .hipHopPack1 {
-    width: 35%;
-    height: auto;
+  .hiphopblur {
+    width: 25%;
+    height: 18%;
     position: absolute;
-    margin-left: 55%;
-    margin-top: 10%;
+    margin-left: 38%;
+    margin-top: 5%;
     transition: .5s all;
-    
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .hiphopblur:hover {
+    opacity: 60%;
   }
 
   .vibeyPack1 {
-    width: 35%;
+    width: 25%;
     height: auto;
     position: absolute;
-    margin-left: 10%;
-    margin-top: 50%;
+    margin-left: 71%;
+    margin-top: 5%;
     transition: .5s all;
+    filter: drop-shadow(1px 2px 8px black);
     
   }
+
+  .vibeyblur {
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 5%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .vibeyblur:hover {
+    opacity: 60%;
+  }
+
+  .vol1Bundle {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -25%;
+    transition: .5s all;
+    filter: drop-shadow(1px 2px 8px black);
+    
+  }
+
+ 
+
+  .vol1Blur {
+    width: 50%;
+    height: 34%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -25%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .vol1Blur:hover {
+    opacity: 60%;
+  }
+
+  .vol2Bundle {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 40%;
+    transition: .5s all;
+    filter: drop-shadow(1px 2px 8px black);
+    
+  }
+
+  .vol2Blur {
+    width: 50%;
+    height: 34%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 40%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .vol2Blur:hover {
+    opacity: 60%;
+  }
+
+  .vintagesoulpack1 {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 105%;
+    transition: .5s all;
+    z-index: 5;
+    filter: drop-shadow(1px 2px 8px black);
+    }
+
+  .vintagesoulblur {
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 105%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .vintagesoulblur:hover {
+    opacity: 60%;
+  }
+
+  .altPack1 {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 105%;
+    transition: .5s all;
+    z-index: 5;
+    filter: drop-shadow(1px 2px 8px black);
+    }
+
+  .altblur {
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 105%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .altblur:hover {
+    opacity: 60%;
+  }
+
+  .vibeyPack2 {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 105%;
+    transition: .5s all;
+    z-index: 5;
+    filter: drop-shadow(1px 2px 8px black);
+    }
+
+  .vibey2blur {
+    width: 25%;
+    height: 18%;
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 105%;
+    transition: .5s all;
+    background-color: black;
+    z-index: 10;
+    opacity: 0%;
+  }
+
+  .vibey2blur:hover {
+    opacity: 60%;
+  }
+
 }
-
-@media only screen and (min-width: 768px){
-  .funkPack1 {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-
-  .hipHopPack1 {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-
-  .vibeyPack1 {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 50%;
-    transition: .5s all;
-    
-  }
-}
-
-@media only screen and (min-width: 992px){
-  .funkPack1 {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-
-  .hipHopPack1 {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-
-  .vibeyPack1 {
-    width: 35%;
-    height: auto;
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 50%;
-    transition: .5s all;
-    
-  }
-}
-
-@media only screen and (min-width: 1200px){
-  .funkPack1 {
-    width: 30%;
-    height: auto;
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-
-  .hipHopPack1 {
-    width: 30%;
-    height: auto;
-    position: absolute;
-    margin-left: 35%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-
-  .vibeyPack1 {
-    width: 30%;
-    height: auto;
-    position: absolute;
-    margin-left: 68%;
-    margin-top: 10%;
-    transition: .5s all;
-    
-  }
-}
-
 
 
 
@@ -869,10 +1081,3 @@
 
   
 
-  @media only screen and (max-width: 600px) {
-  .vol1box {
-    margin-top: 30%;
-  }
-
- 
-  }
