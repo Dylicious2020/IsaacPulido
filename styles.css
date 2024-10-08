@@ -26,8 +26,8 @@
     .mobileInstagram {
       width: 55px;
       text-decoration: none;
-      margin-left: 50%;
-      margin-top: 50%;
+      margin-left: 10%;
+      margin-top: 30%;
       z-index: 100;
      
       
@@ -37,8 +37,8 @@
     
     .mobilePatreon {
       width: 45px;
-      margin-top: 50%;
-      margin-left: 50%;
+      margin-top: 10%;
+      margin-left: 10%;
       text-decoration: none;
      
       
