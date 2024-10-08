@@ -1,33 +1,38 @@
-@media only screen and (max-width: 480px){
-  .instagram {
-    width: 55px;
-    text-decoration: none;
-    margin-left: 60%;
-    margin-top: -70px;
-    z-index: 100;
-    visibility: hidden;
-    
-    
-  
-  }
-  
-  .patreon {
-    width: 45px;
-    margin-top: -70px;
-    text-decoration: none;
-    visibility: hidden;
-    
-    
-   
-  }
-  }
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-  @media only screen and (max-width: 480px){
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .instagram {
+      width: 55px;
+      text-decoration: none;
+      margin-left: 60%;
+      margin-top: -70px;
+      z-index: 100;
+      visibility: hidden;
+      
+      
+    
+    }
+    
+    .patreon {
+      width: 45px;
+      margin-top: -70px;
+      text-decoration: none;
+      visibility: hidden;
+      
+      
+     
+    }
+
     .mobileInstagram {
       width: 75px;
       text-decoration: none;
       margin-left: 0%;
-      margin-top: -10%;
+      margin-top: -5%;
       z-index: 100;
      
       
@@ -45,7 +50,55 @@
       
      
     }
-    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
 
 
 @media only screen and (max-width: 600px){
