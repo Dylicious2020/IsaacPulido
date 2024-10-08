@@ -27,7 +27,7 @@
       width: 75px;
       text-decoration: none;
       margin-left: -10%;
-      margin-top: 30%;
+      margin-top: 20%;
       z-index: 100;
      
       
@@ -650,7 +650,7 @@ color: gray !important;
 }
 
 .itemContainer {
-  margin-left: 5%;
+  margin-left: 0%;
   margin-top: -10%;
   
 }
