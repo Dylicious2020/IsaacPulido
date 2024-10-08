@@ -254,7 +254,7 @@ p.indent {
   
   }
 
-
+/*
 @media only screen and (max-width: 600px){
 .thlcontainer {
   display: block;
@@ -267,7 +267,8 @@ p.indent {
   
   
 }
-/*
+  
+
 .thlcontainer:hover > .bar1 {
   box-shadow: #4769d8 2px 2px;
 }
@@ -279,11 +280,11 @@ p.indent {
 .thlcontainer:hover > .bar3 {
   box-shadow: #4769d8 2px 2px;
 }
-*/
+
 
 
 }
-
+*/
 @media only screen and (min-width: 600px){
 .thlcontainer {
   display: block;
