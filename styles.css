@@ -426,7 +426,7 @@ p.indent {
 }
 
 @media only screen and (max-width: 480px){
-#mySidebar.open {margin-left: 40%;}
+#mySidebar.open {margin-left: 30%;}
 }
 
 @media only screen and (min-width: 600px){
