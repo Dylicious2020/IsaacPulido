@@ -451,7 +451,7 @@ p.indent {
   position: fixed;
   width: 120%;
   height: auto;
-  margin-top: 20%;
+  margin-top: 10%;
   z-index: -10;
 
 }
