@@ -225,7 +225,34 @@ p.indent {
  
 }
 
-
+@media only screen and (max-width: 480px){
+  .thlcontainer {
+    display: block;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-top: 20px;
+    padding-bottom: 5%;
+    z-index: 100;
+    position: fixed;
+    
+    
+  }
+  /*
+  .thlcontainer:hover > .bar1 {
+    box-shadow: #4769d8 2px 2px;
+  }
+  
+  .thlcontainer:hover > .bar2 {
+    box-shadow: #4769d8 2px 2px;
+  }
+  
+  .thlcontainer:hover > .bar3 {
+    box-shadow: #4769d8 2px 2px;
+  }
+  */
+  
+  
+  }
 
 
 @media only screen and (max-width: 600px){
