@@ -446,12 +446,12 @@ p.indent {
         }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
 #drumSolo {
   position: fixed;
   width: 100%;
   height: auto;
-  margin-top: -30%;
+  margin-top: 0%;
   z-index: -10;
 
 }
