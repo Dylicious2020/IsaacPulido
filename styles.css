@@ -147,6 +147,7 @@
     .title {
       letter-spacing: 1px;
       margin-top: 1%;
+      visibility: hidden;
     }
     }
 
@@ -470,6 +471,7 @@ p.indent {
   z-index: 4;
   position: absolute;
   filter: drop-shadow(1px 2px 8px black);
+    visibility: hidden;
   
   /*transition: .5s all;*/
   
@@ -565,6 +567,7 @@ p.indent {
 .shoptext {
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace !important; 
+  visibility: hidden;
 }
 
 .sidebarHeading {
