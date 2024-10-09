@@ -1,212 +1,113 @@
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (max-width: 750px) 
- { 
-
-    .instagram {
-      width: 55px;
-      text-decoration: none;
-      margin-left: 60%;
-      margin-top: -70px;
-      z-index: 100;
-      visibility: hidden;
-      
-      
-    
-    }
-    
-    .patreon {
-      width: 45px;
-      margin-top: -70px;
-      text-decoration: none;
-      visibility: hidden;
-      
-      
-     
-    }
-
-    .mobileInstagram {
-      width: 75px;
-      text-decoration: none;
-      margin-left: 0%;
-      margin-top: -5%;
-      z-index: 100;
-     
-      
-      
-    
-    }
-    
-    .mobilePatreon {
-      width: 55px;
-      margin-top: 0%;
-      margin-left: 5%;
-      text-decoration: none;
-     
-      
-      
-     
-    }
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-
 
 
 @media only screen and (max-width: 600px){
-.instagram {
-  width: 55px;
-  text-decoration: none;
-  margin-left: 60%;
-  margin-top: -70px;
-  z-index: 100;
+  .instagram {
+    width: 15%;
+    text-decoration: none;
+    margin-left: 60%;
+    margin-top: -15%;
+    z-index: 100;
+    
+    
   
+  }
   
-
-}
-
-.patreon {
-  width: 45px;
-  margin-top: -70px;
-  text-decoration: none;
+  .patreon {
+    width: 12%;
+    margin-top: -15%;
+    text-decoration: none;
+    
+    
+   
+  }
+  }
   
-  
- 
-}
-}
-
-@media only screen and (min-width: 600px){
-.instagram {
-  width: 55px;
-  text-decoration: none;
-  margin-left: 60%;
-  margin-top: -80px;
-  
-  
-
-}
-
-.patreon {
-  width: 45px;
-  margin-top: -125px;
-  margin-left: 75%;
-  text-decoration: none;
-  
- 
-  
- 
-}
-  
- 
-
-}
-
-@media only screen and (min-width: 768px){
-
+  @media only screen and (min-width: 600px){
   .instagram {
     width: 55px;
     text-decoration: none;
     margin-left: 60%;
-    margin-top: -95px;
+    margin-top: -80px;
     
     
   
   }
-
+  
   .patreon {
     width: 45px;
-   margin-top: -140px;
-   margin-left: 75%;
-   text-decoration: none;
-  }
-}
-
-@media only screen and (min-width: 992px){
-
-
-  .instagram {
-    width: 100px;
+    margin-top: -125px;
+    margin-left: 75%;
     text-decoration: none;
-    margin-left: 62%;
-    margin-top: -113px;
     
+   
     
+   
+  }
+    
+   
   
   }
-
-  .patreon {
-    width: 75px;
-   margin-top: -155px;
-   margin-left: 75%;
-   text-decoration: none;
-  }
-}
-
-@media only screen and (min-width: 1200px){
-
-  .instagram {
-    width: 100px;
-    text-decoration: none;
-    margin-left: 68%;
-    margin-top: -113px;
-    
-    
   
+  @media only screen and (min-width: 768px){
+  
+    .instagram {
+      width: 55px;
+      text-decoration: none;
+      margin-left: 60%;
+      margin-top: -95px;
+      
+      
+    
+    }
+  
+    .patreon {
+      width: 45px;
+     margin-top: -140px;
+     margin-left: 75%;
+     text-decoration: none;
+    }
   }
-
-  .patreon {
-    width: 75px;
-   margin-top: -155px;
-   margin-left: 78%;
-   text-decoration: none;
+  
+  @media only screen and (min-width: 992px){
+  
+  
+    .instagram {
+      width: 100px;
+      text-decoration: none;
+      margin-left: 62%;
+      margin-top: -113px;
+      
+      
+    
+    }
+  
+    .patreon {
+      width: 75px;
+     margin-top: -155px;
+     margin-left: 75%;
+     text-decoration: none;
+    }
   }
-}
+  
+  @media only screen and (min-width: 1200px){
+  
+    .instagram {
+      width: 100px;
+      text-decoration: none;
+      margin-left: 68%;
+      margin-top: -113px;
+      
+      
+    
+    }
+  
+    .patreon {
+      width: 75px;
+     margin-top: -155px;
+     margin-left: 78%;
+     text-decoration: none;
+    }
+  }
 
 
 
@@ -297,12 +198,12 @@ p.indent {
  
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   .thlcontainer {
     display: block;
     cursor: pointer;
-    margin-left: 85%;
-    margin-top: 20px;
+    margin-left: 88%;
+    margin-top: -11%;
     padding-bottom: 5%;
     z-index: 100;
     position: fixed;
@@ -325,121 +226,90 @@ p.indent {
   
   
   }
-
-/*
-@media only screen and (max-width: 600px){
-.thlcontainer {
-  display: block;
-  cursor: pointer;
-  margin-left: 90%;
-  margin-top: 20px;
-  padding-bottom: 5%;
-  z-index: 100;
-  position: fixed;
   
+  @media only screen and (min-width: 600px){
+  .thlcontainer {
+    display: block;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top: -110px;
+    padding-bottom: 5%;
+    z-index: 100;
+    position: fixed;
+    
+    
+  }
+  /*
+  .thlcontainer:hover > .bar1 {
+    box-shadow: #4769d8 2px 2px;
+  }
   
-}
+  .thlcontainer:hover > .bar2 {
+    box-shadow: #4769d8 2px 2px;
+  }
   
-
-.thlcontainer:hover > .bar1 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-.thlcontainer:hover > .bar2 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-.thlcontainer:hover > .bar3 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-
-
-}
-*/
-@media only screen and (min-width: 600px){
-.thlcontainer {
-  display: block;
-  cursor: pointer;
-  margin-left: 92%;
-  margin-top: 20px;
-  padding-bottom: 5%;
-  z-index: 100;
-  position: fixed;
+  .thlcontainer:hover > .bar3 {
+    box-shadow: #4769d8 2px 2px;
+  }
+  */
+  }
   
+  @media only screen and (min-width: 768px){
+  .thlcontainer {
+    display: block;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top: -100px;
+    padding-bottom: 5%;
+    z-index: 100;
+    position: fixed;
+    
+    
+  }
+  /*
+  .thlcontainer:hover > .bar1 {
+    box-shadow: #4769d8 2px 2px;
+  }
   
-}
-/*
-.thlcontainer:hover > .bar1 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-.thlcontainer:hover > .bar2 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-.thlcontainer:hover > .bar3 {
-  box-shadow: #4769d8 2px 2px;
-}
-*/
-}
-
-@media only screen and (min-width: 768px){
-.thlcontainer {
-  display: block;
-  cursor: pointer;
-  margin-left: 93%;
-  margin-top: 20px;
-  padding-bottom: 5%;
-  z-index: 100;
-  position: fixed;
+  .thlcontainer:hover > .bar2 {
+    box-shadow: #4769d8 2px 2px;
+  }
   
+  .thlcontainer:hover > .bar3 {
+    box-shadow: #4769d8 2px 2px;
+  }
+  */
+  }
   
-}
-/*
-.thlcontainer:hover > .bar1 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-.thlcontainer:hover > .bar2 {
-  box-shadow: #4769d8 2px 2px;
-}
-
-.thlcontainer:hover > .bar3 {
-  box-shadow: #4769d8 2px 2px;
-}
-*/
-}
-
-@media only screen and (min-width: 992px){
-.thlcontainer {
-  display: block;
-  cursor: pointer;
-  margin-left: 93%;
-  margin-top: 20px;
-  padding-bottom: 5%;
-  z-index: 100;
-  position: fixed;
+  @media only screen and (min-width: 992px){
+  .thlcontainer {
+    display: block;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top: -100px;
+    padding-bottom: 5%;
+    z-index: 100;
+    position: fixed;
+    
+    
+  }
   
+  }
   
-}
-
-}
-
-@media only screen and (min-width: 1200px){
-.thlcontainer {
-  display: block;
-  cursor: pointer;
-  margin-left: 93%;
-  margin-top: 20px;
-  padding-bottom: 5%;
-  z-index: 100;
-  position: fixed;
+  @media only screen and (min-width: 1200px){
+  .thlcontainer {
+    display: block;
+    cursor: pointer;
+    margin-left: 90%;
+    margin-top: -100px;
+    padding-bottom: 5%;
+    z-index: 100;
+    position: fixed;
+    
+    
+  }
   
-  
-}
-
-}
+  }
 
 
 
@@ -501,7 +371,7 @@ p.indent {
   
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
 #mySidebar.open {margin-left: 30%;}
 }
 
@@ -522,10 +392,10 @@ p.indent {
         }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
 #drumSolo {
   position: fixed;
-  width: 120%;
+  width: 100%;
   height: auto;
   margin-top: 10%;
   z-index: -10;
@@ -646,7 +516,7 @@ p.indent {
 
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
 .subtitle {
   margin-top: -33px;
   margin-left: 0px;
