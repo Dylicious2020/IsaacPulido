@@ -1,6 +1,19 @@
+@media only screen and (max-width: 480px){
+  .instagram {
+    visibility: hidden;
+  }
+
+  .patreon {
+    visibility: hidden;
+  }
+  .mobileInstagram {
+    width: 10%;
+    
+  }
+}
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 481px) and (max-width: 600px){
   .instagram {
     width: 15%;
     text-decoration: none;
@@ -198,7 +211,7 @@ p.indent {
  
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 481px) and (max-width: 600px){
   .thlcontainer {
     display: block;
     cursor: pointer;
@@ -371,7 +384,7 @@ p.indent {
   
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 481px) and (max-width: 600px){
 #mySidebar.open {margin-left: 30%;}
 }
 
@@ -392,7 +405,7 @@ p.indent {
         }
 
 
-@media only screen and (max-width: 600px){
+        @media only screen and (min-width: 481px) and (max-width: 600px){
 #drumSolo {
   position: fixed;
   width: 100%;
@@ -415,7 +428,7 @@ p.indent {
   }
   }
   
-@media only screen and (max-width: 600px){
+  @media only screen and (min-width: 481px) and (max-width: 600px){
   .squarebtn {
   width: 50%;
   height: 24%;
@@ -516,7 +529,7 @@ p.indent {
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 481px) and (max-width: 600px){
 .subtitle {
   margin-top: -33px;
   margin-left: 0px;
