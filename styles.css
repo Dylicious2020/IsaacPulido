@@ -218,6 +218,20 @@ p.indent {
  
 }
 
+@media only screen and (max-width: 480px){
+  .thlcontainer {
+    display: block;
+    cursor: pointer;
+    margin-left: 88%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    z-index: 100;
+    position: fixed;
+    
+    
+  }
+}
+
 @media only screen and (min-width: 481px) and (max-width: 600px){
   .thlcontainer {
     display: block;
@@ -415,7 +429,7 @@ p.indent {
         @media only screen and (max-width: 480) {
           #drumSolo {
             position: fixed;
-            width: 100%;
+            width: 50%;
             height: auto;
             margin-top: 10%;
             z-index: -10;
