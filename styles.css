@@ -1,4 +1,4 @@
-@media only screen and (device-width: 375px) and (device-height: 667px) {
+@media only screen and (max-width: 480px) and (device-height: 667px) {
   .instagram {
     visibility: hidden;
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) {
+@media only screen and (max-width: 480px) and (device-height: 812px) {
   .instagram {
     visibility: hidden;
   }
@@ -171,7 +171,7 @@
    z-index: -10;
   }
 
-  @media only screen and (device-width: 375px) and (device-height: 667px){
+  @media only screen and (max-width: 480px) and (device-height: 667px){
     .title {
       letter-spacing: 1px;
       margin-top: 0%;
@@ -179,7 +179,7 @@
     }
     }
 
- @media only screen and (device-width: 375px) and (device-height: 812px){
+ @media only screen and (max-width: 480px) and (device-height: 812px){
     .title {
       letter-spacing: 1px;
       margin-top: 0%;
