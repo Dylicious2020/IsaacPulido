@@ -7,8 +7,11 @@
     visibility: hidden;
   }
   .mobileInstagram {
-    width: 10%;
+    width: 20%;
 
+  }
+  .mobilePatreon {
+    width: 20%;
   }
 }
 
