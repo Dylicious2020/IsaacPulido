@@ -228,7 +228,7 @@ p.indent {
     cursor: pointer;
     margin-left: 83%;
     margin-top: 4%;
-    z-index: 100;
+    z-index: 200;
     position: fixed;
     
     
