@@ -1,4 +1,24 @@
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) and (device-height: 667px) {
+  .instagram {
+    visibility: hidden;
+  }
+
+  .patreon {
+    visibility: hidden;
+  }
+  .mobileInstagram {
+    width: 25%;
+    margin-top: -50%;
+    
+
+  }
+  .mobilePatreon {
+    width: 20%;
+    margin-top: -50%;
+  }
+}
+
+@media only screen and (max-width: 480px) and (device-height: 812px) {
   .instagram {
     visibility: hidden;
   }
