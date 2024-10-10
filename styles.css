@@ -152,7 +152,7 @@
   @media only screen and (max-width: 480px){
     .title {
       letter-spacing: 1px;
-      margin-top: 1%;
+      margin-top: 11%;
       
     }
     }
@@ -230,7 +230,7 @@ p.indent {
     display: block;
     cursor: pointer;
     margin-left: 83%;
-    margin-top: 4%;
+    margin-top: 14%;
     z-index: 200;
     position: fixed;
     
@@ -441,7 +441,7 @@ p.indent {
             position: fixed;
             width: 100%;
             height: auto;
-            margin-top: 10%;
+            margin-top: 20%;
             z-index: -10;
           
           }
@@ -589,7 +589,7 @@ p.indent {
 
 @media only screen and (max-width: 480px){
 .subtitle {
-  margin-top: -5%;
+  margin-top: 5%;
   margin-left: 0%;
   font-family: 'Courier New', Courier, monospace;
   color: blue;
