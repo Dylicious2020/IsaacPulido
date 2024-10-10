@@ -698,10 +698,21 @@ p.indent {
 color: gray !important;
 }
 
+
+@media only screen and (max-width: 480px) and (max-height: 667px) {
 .itemContainer {
   margin-left: 0%;
   margin-top: -25%;
   
+}
+}
+
+@media only screen and (max-width: 480px) and (min-height: 668px) and (max-height: 812px) {
+.itemContainer {
+  margin-left: 0%;
+  margin-top: -15%;
+  
+}
 }
 
 .box {
