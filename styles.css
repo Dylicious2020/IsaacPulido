@@ -152,7 +152,7 @@
   @media only screen and (max-width: 480px){
     .title {
       letter-spacing: 1px;
-      margin-top: 11%;
+      margin-top: 5%;
       
     }
     }
@@ -230,7 +230,7 @@ p.indent {
     display: block;
     cursor: pointer;
     margin-left: 83%;
-    margin-top: 14%;
+    margin-top: 6%;
     z-index: 200;
     position: fixed;
     
@@ -439,9 +439,9 @@ p.indent {
         @media only screen and (max-width: 480px) {
           #drumSolo {
             position: fixed;
-            width: 100%;
+            width: 120%;
             height: auto;
-            margin-top: 20%;
+            margin-top: 30%;
             z-index: -10;
           
           }
@@ -589,7 +589,7 @@ p.indent {
 
 @media only screen and (max-width: 480px){
 .subtitle {
-  margin-top: 5%;
+  margin-top: 0%;
   margin-left: 0%;
   font-family: 'Courier New', Courier, monospace;
   color: blue;
