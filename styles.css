@@ -9,12 +9,14 @@
   .mobileInstagram {
     width: 25%;
     margin-top: -50%;
+    visibility: hidden;
     
 
   }
   .mobilePatreon {
     width: 20%;
     margin-top: -50%;
+    visibility: hidden;
   }
 }
 
