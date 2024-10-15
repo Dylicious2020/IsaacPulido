@@ -228,7 +228,7 @@
                 position: fixed;
                 width: 120%;
                 height: auto;
-                margin-top: -20%;
+                margin-top: -30%;
                 z-index: -10;
               
               }
@@ -467,7 +467,7 @@
 @media only screen and (max-width: 480px) {
   .shopContainer {
     margin-top: 50%;
-    margin-left: 25%;
+    margin-left: 20%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 186px);
     gap: 10%;
