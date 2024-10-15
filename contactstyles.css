@@ -1,96 +1,37 @@
+@media only screen and (max-width: 480px) {
+  .instagram {
+    display: none;
+  }
 
-@media only screen and (max-width: 600px){
-  .instagram {
-    width: 55px;
-    text-decoration: none;
-    margin-left: 60%;
-    margin-top: -70px;
-    z-index: 100;
-  
+  .patreon {
+    display: none;
   }
+
+  .mobileInstagram {
+    width: 50px;
   }
-  
-  @media only screen and (min-width: 600px){
-  .instagram {
-    width: 55px;
-    text-decoration: none;
-    margin-left: 45%;
-    margin-top: -70px;
-    visibility: hidden;
-  
+
+  .mobilePatreon {
+    width: 40px;
   }
-  }
-  
-  @media only screen and (max-width: 600px){
-    .sidebarInstagram {
-      width: 0%;
-      text-decoration: none;
-      margin-left: 0%;
-      margin-top: 0%;
-      z-index: 100;
-      visibility: hidden;
-    
-    }
-    }
-    
-    @media only screen and (min-width: 600px){
-    .sidebarInstagram {
-      width: 20%;
-      text-decoration: none;
-      margin-left: 5%;
-      margin-top: 0%;
-      
-    
-    }
-    }
+}
+
+@media only screen and (min-width: 481px) {
+.instagram {
+  width: 50px;
   
   
+}
+
+.patreon {
+  width: 40px;
   
-  @media only screen and (max-width: 600px){  
-    .patreon {
-     width: 45px;
-     margin-top: -70px;
-     text-decoration: none;
-     
-    
-  }
-  }
-  
-  @media only screen and (min-width: 600px){  
-    .patreon {
-     width: 0%;
-     margin-top: 0%;
-     margin-left: 0%;
-     text-decoration: none;
-     visibility: hidden;
-     
-    
-  }
-  }
-  
-  @media only screen and (max-width: 600px){  
-    .sidebarPatreon {
-     width: 0%;
-     margin-top: 0%;
-     margin-left: 0%;
-     text-decoration: none;
-     visibility: hidden;
-     
-    
-  }
-  }
-  
-  @media only screen and (min-width: 600px){  
-    .sidebarPatreon {
-     width: 15%;
-     margin-top: 0%;
-     margin-left: 10%;
-     text-decoration: none;
-     
-     
-    
-  }
-  }
+}
+
+.mobileInstagram, .mobilePatreon {
+  display: none;
+}
+}
   
   .link{
     text-decoration: none;
@@ -105,7 +46,7 @@
     }
   
   .title {
-    letter-spacing: 1px;
+    flex-wrap: nowrap;
   }
   
    
@@ -134,97 +75,46 @@
     text-indent: 30px;
   }
   
+  @media only screen and (max-width: 480px) {
+    .container-fluid {
+      background-color: black !important;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        margin-top: -30%;
+        z-index: 100;
+        filter: drop-shadow(1px 2px 8px black);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+     
+    }
+  }
   
-  
+  @media only screen and (min-width: 481px) {
   .container-fluid {
     background-color: black !important;
-    width: 100%;
-    height: 12%;
-    position: fixed;
-    margin-top: 0%;
-    z-index: 100;
-    filter: drop-shadow(1px 2px 8px black);
-    
+      width: 100%;
+      height: 100px;
+      position: fixed;
+      margin-top: 0%;
+      z-index: 100;
+      filter: drop-shadow(1px 2px 8px black);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
    
   }
+}
   
-  
-  
-  
-  @media only screen and (max-width: 600px){
-  .thlcontainer {
-    display: block;
+   .thlcontainer {
+    z-index: 200;
     cursor: pointer;
-    margin-left: 90%;
-    margin-top: -640px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: fixed;
-    
-    
-  }
-  
-  }
-  
-  @media only screen and (min-width: 600px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 92%;
-    margin-top: -60px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
-    
-    
-  }
-  
-  }
-  
-  @media only screen and (min-width: 768px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: -65px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
-    
-    
-  }
-  
-  }
-  
-  @media only screen and (min-width: 992px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: -70px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
-    
-    
-  }
-  
-  }
-  
-  @media only screen and (min-width: 1200px){
-  .thlcontainer {
-    display: block;
-    cursor: pointer;
-    margin-left: 90%;
-    margin-top: -75px;
-    padding-bottom: 5%;
-    z-index: 100;
-    position: absolute;
-    
-    
-  }
-  
-  }
+   }
   
   
   
@@ -252,19 +142,47 @@
     transform: translate(0, -11px) rotate(45deg);
   }
   
+  @media only screen and (max-width: 480px) {
+    .sidebar {
+      height: 100%;
+      width: 70%;
+      position: fixed;
+      margin-left: 100%; 
+      margin-top: -10%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      background-color: black;
+      opacity: 100%;
+      z-index: 10;
+      transition: 0.5s;
+      filter: drop-shadow(1px 2px 8px black);
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
   .sidebar {
-    height: 110%;
-    width: 60%;
+    height: 100%;
+    width: 70%;
     position: fixed;
-    margin-left: 100%;
-    top: 0;
-    padding-top: 80px;
+    margin-left: 100%; 
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
     background-color: black;
     opacity: 100%;
     z-index: 10;
     transition: 0.5s;
     filter: drop-shadow(1px 2px 8px black);
   }
+}
+  
+  
   .sidebar div {
     padding: 8px;
     /*font-size: 24px;*/
@@ -282,30 +200,36 @@
     
   }
   
-  #mySidebar.open {margin-left: 40%;}
+  @media only screen and (max-width: 480px) {
+    #mySidebar.open {margin-left: 30%;}
+    }
   
-  @media only screen and (max-width: 600px){
-  #drumSolo {
-    position: fixed;
-  width: 100%;
-  height: auto;
-  margin-top: -30%;
-  z-index: -10;
-  
-  }
+  @media only screen and (min-width: 481px) {
+  #mySidebar.open {margin-left: 50%;}
   }
   
-  @media only screen and (min-width: 600px){
+  
+  @media only screen and (max-width: 480px) {
     #drumSolo {
       position: fixed;
-      width: 100%;
+      width: 120%;
       height: auto;
-      margin-top: -50%;
-      margin-left: 0%;
+      margin-top: 0%;
       z-index: -10;
     
     }
-    }
+  }
+  
+          @media only screen and (min-width: 481px) {
+            #drumSolo {
+              position: fixed;
+              width: 100%;
+              height: auto;
+              margin-top: 0%;
+              z-index: -10;
+            
+            }
+          }
     
   @media only screen and (max-width: 600px){
     .squarebtn {
@@ -391,57 +315,56 @@
 
   
   
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 480px) {
+    .subtitle {
+      font-family: 'Courier New', Courier, monospace;
+      margin-left: 5%;
+      margin-top: -20px;
+      z-index: 100;
+      position: fixed;
+    }
+    }
+  
+  @media only screen and (min-width: 481px) {
+  
+    .subtitleContainer {
+      width: 52%;
+      height: 95px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-end;
+      
+    }
   .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
     font-family: 'Courier New', Courier, monospace;
+    
+    z-index: 100;
+    position: fixed;
   }
   }
   
-  @media only screen and (min-width: 600px){
-  .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  }
+  @media only screen and (max-width: 480px) {
+    .sidebarItem {
+      margin-top: 0%;
+      font-size: 250% !important;
+    }
+    }
   
-  @media only screen and (min-width: 768px){
-  .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  }
-  
-  @media only screen and (min-width: 992px){
-  .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  }
-  
-  @media only screen and (min-width: 1200px){
-  .subtitle {
-    margin-top: -30px;
-    margin-left: 2.5%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  }
-  
+  @media only screen and (min-width: 481px) {
   .sidebarItem {
-    margin-top: 2%;
-    font-size: 50px !important;
+    margin-top: 0%;
+    font-size: 300% !important;
   }
-  
+  }
+
   .sidebarItem:hover {
-  color: gray !important;
-  }
+    color: gray !important;
+    }
   
   .itemContainer {
     margin-left: 5%;
+    margin-top: -25%;
     
   }
   
@@ -450,7 +373,7 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    margin-top: 50px;
+    margin-top: -150px;
   }
   
   .form-box {
@@ -466,6 +389,7 @@
     border: none;
     outline: none;
     background: #ececec;
+    border-radius: 5px;
   }
   
   .form-box button {
@@ -490,6 +414,22 @@
     height: 50%;
   }
 
+  @media only screen and (max-width: 480px) {
+    .contactBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      margin-top: 30%;
+      padding: 10px;
+      filter: drop-shadow(1px 2px 8px black);
+      
+     
+      
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
   .contactBox {
     display: flex;
     align-items: center;
@@ -502,6 +442,7 @@
    
     
   }
+}
   
   .form-contactBox, .form-messageBox{
     padding: 5%;
@@ -516,6 +457,7 @@
     border: none;
     outline: none;
     background: #ececec;
+    border-radius: 5px;
     
   }
   
@@ -546,6 +488,7 @@
     border: none;
     outline: none;
     background: #ececec;
+    border-radius: 5px;
   }
 
   .submitButton button {
