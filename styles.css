@@ -133,7 +133,7 @@ p.indent {
 
 .sidebar {
   height: 100%;
-  width: 70%;
+  width: 350px;
   position: fixed;
   margin-left: 100%; 
   display: flex;
@@ -175,6 +175,13 @@ p.indent {
 #mySidebar.open {margin-left: 50%;}
 }
 
+@media only screen and (min-width: 700px) {
+  #mySidebar.open {margin-left: 65%;}
+  }
+
+  @media only screen and (min-width: 1000px) {
+    #mySidebar.open {margin-left: 75%;}
+    }
 
 @media only screen and (max-width: 480px) {
   #drumSolo {
@@ -338,7 +345,7 @@ color: gray !important;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40%;
+    margin-top: 20%;
       
     
   }
