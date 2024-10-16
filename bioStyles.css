@@ -70,14 +70,23 @@
     
   }
   
-  
+  @media only screen and (max-width: 480px) {
+    .bio {
+      text-decoration: none;
+      margin-top: 10%;
+      padding: 5%;
+     
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
   .bio {
     text-decoration: none;
     margin-top: 0%;
     padding: 5%;
    
   }
-  
+}
   
   p.indent {
     text-indent: 30px;
