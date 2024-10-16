@@ -222,7 +222,7 @@
       position: fixed;
       width: 120%;
       height: auto;
-      margin-top: 0%;
+      margin-top: -10%;
       z-index: -10;
     
     }
@@ -327,7 +327,7 @@
     .subtitle {
       font-family: 'Courier New', Courier, monospace;
       margin-left: 5%;
-      margin-top: -50px;
+      margin-top: -60px;
       z-index: 100;
       position: fixed;
     }
