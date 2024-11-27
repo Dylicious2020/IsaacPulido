@@ -7,11 +7,19 @@
     display: none;
   }
 
+  .youtube {
+    display: none;
+    }
+
   .mobileInstagram {
     width: 50px;
   }
 
   .mobilePatreon {
+    width: 40px;
+  }
+
+  .mobileYoutube {
     width: 40px;
   }
 }
@@ -28,7 +36,12 @@
   
 }
 
-.mobileInstagram, .mobilePatreon {
+  .youtube {
+  width: 40px;
+  
+}
+
+.mobileInstagram, .mobilePatreon, .mobileYoutube {
   display: none;
 }
 }
